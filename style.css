@@ -1,0 +1,114 @@
+/*
+header
+h1 nav
+ul li a
+main
+section h2 p .bg-img 
+#beyon #debby #freestock #jakob #tessa
+#winter-morning #heart-tree #baking-day #christmas-eve #walk-snow
+footer h3 a
+*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100svh;
+  width: 100svw;
+}
+header,
+footer {
+  width: 100svw;
+  height: 100px;
+  background-color: #f2e8cf;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+}
+h1,
+h2,
+h3,
+p,
+li {
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  width: 60%;
+  height: 100%;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  /* flex-wrap: wrap;
+    gap: 20px; */
+}
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: #bc4749;
+  font-weight: 600;
+}
+main {
+  background-color: #f2e8cf;
+  min-height: 100%;
+  width: 100%;
+  top: 100px;
+}
+section {
+  min-height: 100svh;
+  min-width: 100svw;
+  text-align: center;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p {
+  margin-top: 20px;
+}
+#winter-morning {
+  background-color: #386641;
+}
+#heart-tree {
+  background-color: #6a994e;
+}
+#baking-day {
+  background-color: #a7c957;
+}
+#christmas-eve {
+  background-color: #386641;
+}
+#walk-snow {
+  background-color: #6a994e;
+}
+.bg-img {
+  background-color: blue;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#beyon {
+  background-image: url(./assets/beyon-binu-Qma3hmmBj14-unsplash.jpg);
+}
+#debby {
+  background-image: url(./assets/debby-hudson-QdQEtkscDi8-unsplash.jpg);
+  background-position: center;
+}
+#freestock {
+  background-image: url(./assets/freestocks--Qf9JKLysUg-unsplash.jpg);
+}
+#jakob {
+  background-image: url(./assets/jakob-owens-mpnqu9o4b9w-unsplash.jpg);
+  background-position: top right;
+}
+#tessa {
+  background-image: url(./assets/tessa-rampersad-5toRIWF2GUY-unsplash.jpg);
+}
