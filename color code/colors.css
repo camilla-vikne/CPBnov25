@@ -1,0 +1,27 @@
+body {
+  height: 100svh;
+  width: 100svw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  /* background-color: chocolate; */
+}
+section {
+  height: 200px;
+  width: 200px;
+}
+
+#rgb {
+  background-color: rgb(255, 0, 255);
+}
+#hex {
+  background-color: #f91616f8;
+}
+#rgba {
+  background-color: rgba(180, 20, 151, 0.41);
+}
+#hsl {
+  background-color: hsla(0, 100%, 50%, 0.902);
+}
