@@ -48,6 +48,9 @@ ul {
   /* flex-wrap: wrap;
     gap: 20px; */
 }
+img {
+  height: 4-px;
+}
 a,
 a:active,
 a:visited {
