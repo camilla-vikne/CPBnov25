@@ -8,6 +8,16 @@ section h2 p .bg-img
 #winter-morning #heart-tree #baking-day #christmas-eve #walk-snow
 footer h3 a
 */
+:root {
+  --100-percent: 90%;
+  --dark-green: #386641;
+  --middle-green: #408915;
+  --light-green: #a7c957;
+  --beige: #c9975e;
+  --red: #bc4749;
+  --element-height: 100px;
+  --border-style: dotted;
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -19,13 +29,14 @@ body {
 header,
 footer {
   width: 100svw;
-  height: 100px;
-  background-color: #f2e8cf;
+  height: var(--element-height);
+  background-color: var(--beige);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   position: sticky;
   top: 0;
+  border: var(--dark-green), var(--border-style) 5px;
 }
 h1,
 h2,
@@ -36,15 +47,15 @@ li {
 }
 nav {
   width: 60%;
-  height: 100%;
+  height: var(--100-percent);
 }
 ul {
   list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  height: 100%;
+  width: var(--100-percent);
+  height: var(--100-percent);
   /* flex-wrap: wrap;
     gap: 20px; */
 }
@@ -55,14 +66,14 @@ a,
 a:active,
 a:visited {
   text-decoration: none;
-  color: #bc4749;
+  color: var(--red);
   font-weight: 600;
 }
 main {
-  background-color: #f2e8cf;
-  min-height: 100%;
-  width: 100%;
-  top: 100px;
+  background-color: var(--beige);
+  min-height: var(--100-percent);
+  width: var(--100-percent);
+  top: var(--element-height);
 }
 section {
   min-height: 100svh;
@@ -77,19 +88,19 @@ p {
   margin-top: 20px;
 }
 #winter-morning {
-  background-color: #386641;
+  background-color: var(--dark-green);
 }
 #heart-tree {
-  background-color: #6a994e;
+  background-color: var(--middle-green);
 }
 #baking-day {
-  background-color: #a7c957;
+  background-color: var(--light-green);
 }
 #christmas-eve {
-  background-color: #386641;
+  background-color: var(--dark-green);
 }
 #walk-snow {
-  background-color: #6a994e;
+  background-color: var(--middle-green);
 }
 .bg-img {
   background-color: blue;
